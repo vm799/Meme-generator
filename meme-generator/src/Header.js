@@ -5,9 +5,9 @@ export default function Header(){
         <div>
         <header>
         <nav>
-        <image src="https://static.thenounproject.com/png/530508-200.png"></image>
-        <h2>meme generator</h2>
-        <h3>React course- Project 3</h3>
+        <img className="nav-logo"src="https://cdn-icons-png.flaticon.com/128/24/24802.png" alt="logo"></img>
+        <h2 className="nav-title">meme generator</h2>
+        <h3 className="nav-subtitle">React course- project 3</h3>
         
         </nav></header>
         </div>

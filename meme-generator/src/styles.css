@@ -11,5 +11,56 @@ body {
 }
 
 nav{
-  background-color: brown;
+  background: #F09819;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+height: 5em;
+display: flex;
+color: rgb(210, 26, 105);
+align-items: center;
+}
+
+.nav-logo{
+  height:100%;
+  padding: 1em;
+  
+}
+
+.nav-title{
+  margin-right: auto;
+  font-size:2rem;
+}
+
+.nav-subtitle{
+  padding: 0 1em;
+  font-size:1.25rem;
+  font-weight: 500;
+}
+
+.form {
+  
+  display: -ms-grid;
+  display: grid;
+  grid-template: 40px 40px/ 1fr 1fr;
+  padding: 50px;
+  gap: 15px;
+  
+}
+
+.form--button{
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  border: none;
+    cursor: pointer;
+  background: #F09819;  
+    background: linear-gradient(to right, #EDDE5D, #F09819);
+    color:crimson;
+    font-weight:900;
+    letter-spacing: 1.5px;
+}
+
+.form--input{
+  border-radius: 5px;
+  text-indent: 5px;
+  border: 1px solid #D5D4D8;
 }
