@@ -37,7 +37,7 @@ React.useEffect(()=>{
     }
     
     return (
-        <main>
+        <main className= "container">
             <div className="form">
                 <input 
                     type="text"
@@ -59,7 +59,7 @@ React.useEffect(()=>{
                     className="form--button"
                     onClick={getMemeImage}
                 >
-                    Get a new meme image 🖼
+                    Get a new meme image
                 </button>
             </div>
             <div className="meme">
